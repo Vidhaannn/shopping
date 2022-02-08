@@ -1,0 +1,162 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product {
+  display: inline-block;
+  border: solid thin #ccc;
+  width: auto;
+}
+
+.filters {
+  width: 250px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.filters .selector {
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2px 3px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filters .selector .clear {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ff3f6c;
+}
+
+.filters .category {
+  width: auto;
+  border-bottom: 1px solid #e9e9ed;
+  border-right: 1px solid #edebef;
+}
+
+.filters .category ul {
+  list-style: none;
+}
+
+.filters .category ul li label {
+  cursor: pointer;
+  color: #282c3f;
+  font-weight: 500;
+}
+
+.filters .category ul li label input {
+  margin: 5px;
+  padding: 3px;
+}
+
+.filters .productCategories {
+  margin: 15px 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e9e9ed;
+  border-right: 1px solid #edebef;
+}
+
+.filters .productCategories span {
+  display: block;
+  margin-left: 15px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.filters .productCategories label {
+  display: block;
+  margin-left: 15px;
+  padding: 3px 15px;
+}
+
+.filters .brand {
+  margin: 15px 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e9e9ed;
+  border-right: 1px solid #edebef;
+}
+
+.filters .brand span {
+  display: block;
+  margin-left: 15px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.filters .brand label {
+  display: block;
+  margin-left: 15px;
+  padding: 3px 15px;
+}
+
+.filters .price {
+  margin: 15px 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e9e9ed;
+  border-right: 1px solid #edebef;
+}
+
+.filters .price span {
+  display: block;
+  margin-left: 15px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.filters .price label {
+  display: block;
+  margin-left: 15px;
+  padding: 3px 15px;
+}
+
+.filters .discount {
+  margin: 15px 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e9e9ed;
+  border-right: 1px solid #edebef;
+}
+
+.filters .discount span {
+  display: block;
+  margin-left: 15px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.filters .discount label {
+  display: block;
+  margin-left: 15px;
+  padding: 3px 15px;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.products .product {
+  width: 200px;
+  margin: 5px 15px;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=Products.css.map */
